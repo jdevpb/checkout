@@ -24,7 +24,7 @@ import com.assessment.checkout.pojo.ItemDetailsBean;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(controllers = ItemController.class, secure = false)
-@ContextConfiguration(classes = { App.class, ItemController.class })
+@ContextConfiguration(classes = { App.class })
 public class ItemControllerTest {
 
 	@Autowired
